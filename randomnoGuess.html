@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        d=[];
+        for(i=1;i<=10;i++){
+            d.push(i);
+        }
+        c=Math.floor(Math.random() * d.length)
+        com=d[c];  
+        while(true){
+            u=Number(prompt("Enter Your Guess no."));
+            if(u==com){
+            console.log("Winer");
+            if(u>=com){
+                alert("high value");
+            }
+            else{
+                alert("low value");
+            }
+            }
+            else{
+                alert("Loser");
+                if(u>=com){
+                    alert("high value");
+                }
+                else{
+                    alert("low value");
+                }
+                
+            }
+            
+        }
+        
+
+    </script>
+</body>
+</html>

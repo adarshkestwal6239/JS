@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        a=[1,2,3,4,5,-9]
+        c=0;
+        d=0;
+        e=[];
+        f=[];
+        for(i=0;i<a.length;i++){
+            if(a[i]%2==0){
+                c=1+c;
+                e.push(a[i]);
+            }
+            else{
+                d=1+d;
+                f.push(a[i])
+            }
+        }
+        //Display How many even and odd no
+
+        document.write("How many Even No. ="+c+"<br>");
+        document.write("How many Odd No. ="+d+"<br>");
+         
+        //print Display Even No and Odd No
+
+        document.write("Even no are="+e+"<br>");
+        document.write("Odd no are="+f+"<br>");
+    
+        
+    </script>
+</body>
+</html>
