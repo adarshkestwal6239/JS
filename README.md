@@ -1,3 +1,3 @@
-# JS
+#Projects
 <br>
 Html + css + Javascript
