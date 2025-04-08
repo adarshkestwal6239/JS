@@ -1,2 +1,2 @@
-Javascript project <br>
+Javascript Practice Code <br>
  HTML + CSS + JS
